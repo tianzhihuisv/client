@@ -1,0 +1,9 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8561/eureka/
+spring:
+  application:
+    name: simple-service
+server:
+  port: 8084
